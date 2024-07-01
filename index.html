@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>realhomeasy 🏛🏡</title>
+
+
+    <link rel="shortcut icon" href="./img/gal-12.jpeg" type="image/img" class="iogv">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect"  href="https://fonts.googleapis.css">
+    <link rel="preconnect"  href="https://fonts.gstatic.com"  crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&
+    display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header class="header"  data-header>
+    <div class="container">
+        <a href="#"  class="logo">
+            <ion-icon name="business-outline"></ion-icon>Real-homeasy 
+        </a>
+
+        <nav class="navbar container"  data-navbar>
+        <ul class="navbar-list">
+            <li>
+                <a href="#Home"  class="navbar-link"  data-nav-link>Home</a>
+            </li>
+
+            <li>
+                <a href="#Sell"  class="navbar-link"  data-nav-link>Sell</a>
+            </li>
+
+            <li>
+                <a href="#about"  class="navbar-link"  data-nav-link>About Us</a>
+            </li>
+
+            <li>
+                <a href="#proper"  class="navbar-link"  data-nav-link>Listed Properties</a>
+            </li>
+            
+            <li>
+                <a href="#invest"  class="navbar-link"  data-nav-link>Invest With Us</a>
+            </li>
+   
+            <li>
+                <a href="#contact"  class="navbar-link"  data-nav-link>Contact Us </a>
+            </li>
+        </ul>
+
+        </nav>
+
+        <a href="https://accounts.google.com/servicelogin?hl=en-gb" class=" btn btn-secondary">Log In</a>
+
+<button class="nav-toggle-btn "  aria-label="Toggle menu"  data-nav-toggler>
+  <ion-icon name="menu-outline"  aria-hidden="true"  class="menu-icon"></ion-icon>
+  <ion-icon name="close-outline"  aria-hidden="true"  class="close-icon"></ion-icon>
+</button>
+ 
+<select name="select" style="width: 40.5px;" id="lang">
+    <option value="english" style="font-size: 1.5rem;">En</option>
+    <option value="Arabic" style="font-size: 1.5rem;">Arabic</option>
+    <option value="Spanish" style="font-size: 1.5rem;">Spanish</option>
+    <option value="China" style="font-size: 1.5rem;">Chinese</option>
+    <option value="French" style="font-size: 1.5rem;">Russia</option>
+    <option value="French" style="font-size: 1.5rem;">British</option>
+    <option value="French" style="font-size: 1.5rem;">Isreali</option>
+    <option value="French" style="font-size: 1.5rem;">Korean</option>
+    <option value="French" style="font-size: 1.5rem;">Japan</option>
+    <option value="French" style="font-size: 1.5rem;">Itailano</option>
+    <option value="French" style="font-size: 1.5rem;">Filipino</option>
+    <option value="French" style="font-size: 1.5rem;">Mexican</option>
+</select>
+    </div>
+</header>
+
+<main>
+    <article class="article">
+
+        <section class="section hero"  aria-label="hero">
+     <div class="container">
+        <div class="hero-bg">
+            <div class="hero-content">
+                <h1 class="h1 hero-title">
+                    Discover the best<span class="span">homes</span>,you can ever imagine
+                </h1>
+
+                <p class="hero-text">
+                    This is a great Webpage for buying, selling, and investing in properties all over the world without any agent or commision
+                </p>
+            </div>
+        </div>
+
+<div class="hero-form-wrapper"  id="Sell">
+    <div class="form-tab">
+
+        <button class="tab-btn active"   data-tab-btn>Buy</button>
+        <button class="tab-btn active"   data-tab-btn>Invest</button>
+        <button class="tab-btn active"   data-tab-btn>Rent</button>
+    </div>
+
+    <form action="https://formsubmit.co/realhomeasy@gmail.com" method="POST"  class="hero-form">
+
+    <div class="input-wrapper">
+        <label for="search" class="input-label">Search  :  *</label>
+
+        <input type="search" name="search" id="search"    placeholder="Search your homes"        
+        required  class="input-field">
+
+<ion-icon name="search-outline"></ion-icon>
+    </div>
+
+    <div class="input-wrapper">
+        <label for="category" class="input-label">Select Category:</label>
+
+        <select name="category" id="category" class="dropdown-list">
+              
+            <option value="House" name="House">House</option>
+            <option value="apartment" name="apartment">Apartment</option>
+            <option value="office" name="office">Office</option>
+            <option value="Hotel"  name="Hotel">Hotel</option>
+            <option value="Company" name="Company">Company</option>
+        </select>
+    </div>
+
+    <div class="input-wrapper">
+        <label for="min-price" class="input-label">Max-price :</label>
+
+        <select name="min-price" id="min-price" class="dropdown-list">
+              
+            <option value="min-price">Max-price</option>
+            <option value="1000">&#36;1000</option>
+            <option value="2000">&#36;2000</option>
+            <option value="4000">&#36;4000</option>
+            <option value="100">&#36;100</option>
+            <option value="200">&#36;200</option>
+            <option value="300">&#36;300</option>
+            <option value="400">&#36;400</option>
+            <option value="500">&#36;500</option>
+
+        </select>
+    </div>
+
+    <div class="input-wrapper">
+        <label for="country" class="input-label">Country :</label>
+
+        <select name="country" id="country" class="dropdown-list">
+              
+            <option value="country" name="Country">Country</option>
+            <option value="Nigeria" name="Nigeria">Nigeria🏳‍🌈</option>
+            <option value="America"  name="America">America🏴</option>
+            <option value="China"  name="China">China🚩</option>
+            <option value="saudi arabia"  name="Saudi arabia">Saudi arabia🚩</option>
+            <option value="London"  name="London">London</option>
+            <option value="India"  name="India">India</option>
+            <option value="Pakistan"  name="Pakistan">Pakistan</option>
+            <option value="Isreal"  name="Isreal">Isreal</option>
+            <option value="Russia"  name="Russia">Russia</option>
+            <option value="Spain"  name="Spain">Spain</option>
+            <option value="Filipines"  name="Filipines">Filipines</option>
+            <option value="Mexico"  name="Mexico">Mexico</option>
+            <option value="Dubia"  name="apartment">Dubia</option>
+            <option value="Algeria"  name="Algeria">Algeria</option>
+            <option value="Canada"  name="Canada">Canada</option>
+            <option value="Turkey"  name="Turkey">Turkey</option>
+            <option value="South Korean"  name="South Korean">South Korean</option>
+            <option value="Japan"  name="Japan">Japan</option>
+            <option value="Itaily"  name="Itaily">Itaily</option>
+            <option value="South Africa"  name="South Africa">South Africa</option>
+            
+            
+
+        </select>
+    </div>
+
+<button type="submit"  class="btn btn-primary"  id=""><a href="#proper">Search Now</a></button>
+
+    
+</form>
+</div>
+
+     </div>
+        </section>
+
+
+        <section class="section about" id="about"  aria-label="about">
+            <div class="container">
+            <div class="about-banner img-holder"  style="--width:  ;   --height:  ; ">
+                <video width="100%" height="70%"
+                controls poster="img/depositphotos_282807800-stock-photo-family-taking-selfie-over-house.jpg"
+                src="img/How To Start A Real Estate Business From Scratch Right Now.mp4"     class="img-cover">
+                </video>
+            </div>
+        
+        <div class="about-content">
+            <h2 class="h2 section-title"  style="font-weight: 700; ">About Us</h2>
+            <p class="section-text" style="color: rgb(139, 70, 70);">Our workers  are well equiped to give you your desired homes, Our company does not accept agents fee.
+                We offer secured and reliable transctions  to all our clients, Connect with us on whatsapp  @<a href="https://www.whatsapp.com/realhomes"  style="color: blue;">www.whatsapp.com/realhomes.</a> 
+               Become our partner by investing with us</p>
+             <button type="submit"   class="btn btn-primary"><a href="account.html">👍Learn More</a></button>
+        </div>
+     </div>
+     </section>
+
+
+<section class="section service"  aria-label="service">
+    <div class="container">
+<h2 class="h2 section-title"id="terms" style="color: brown; font-weight: 600;">How we Work</h2>
+
+<p class="section-text"  style="color: brown;">
+Discover a curated selection of homes, apartments, and commercial properties. join us today, and let's unlock the door to your dream properties!
+</p>
+
+<ul class="service-list">
+
+    <li>
+        <div class="service-card">
+          <div class="card-icon">
+                <ion-icon name="home-outline"></ion-icon>
+            </div>
+
+<h3 class="h3 card-title" style="color: yellowgreen;">Evaluate Properties</h3>
+
+<p class="card-text">
+We give you an assured price and varieties of properties all over the world at a low discount</p>
+
+        </div>
+    </li>
+
+     
+     <li>
+        <div class="service-card">
+
+            <div class="card-icon">
+                <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+<h3 class="h3 card-title" style="color: purple;">Meeting With Our Agent</h3>
+
+<p class="card-text">
+   Get to meet our agent all over the world and in all social media platforms we're every where you are 
+</p>
+
+        </div>
+    </li> 
+</ul>
+</div>
+</section>
+
+
+
+ <section class="section property" aria-label="property">
+<div class="container">
+
+    <h2 class="h2 section-title"  id="proper">Featured Properties</h2>
+
+    <p class="section-text">
+        A great platform to buy, sell and rent your properties without any agent or commisions.
+    </p>
+
+    <ul class="property-list">
+        <li>
+            <div class="property-card">
+                 
+                <figure class="card-banner img-holder" style="--width:  800; --height: 533;">
+               <img src="img/house-1.jpeg" width="200"  height="333"  alt="10755  Hillshire  Ave, Baton Rouge,  LA 7037, USA"  loading="lazy"  class="img-cover">
+                </figure>
+
+                <button class="card-action-btn"  aria-label="add to favourite">
+                <ion-icon name="heart"  aria-label="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                    <h3 class="h3">
+                        <a href="#"   class="card-title">10755  Hillshire  Ave, Baton Rouge,  LA 7037, USA</a>
+                    </h3>
+
+                    <ul class="card-list">
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="cube-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">8000sqf</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="bed-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">4 Beds</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="man-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">5 Bath</span>
+                        </li>
+                    </ul>
+
+                    <div class="card-meta">
+
+                        <div>
+                            <span  class="meta--title">Price</span>
+
+                            <span class="meta-text">$5000</span>
+                        </div>
+
+                        <div>
+                            <span  class="meta--title">Rating</span>
+
+                            <span class="meta-text">
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <span>5.0(30)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="property-card">
+                 
+                <figure class="card-banner img-holder" style="--width:  800; --height: 533;">
+<img src="img/fe298a70a49d93f50c62ae40c5ecce3a.jpg"width="200"  height="333"  alt="10755  Hillshire  Ave, Baton Rouge,  LA 7037, USA"  loading="lazy"  class="img-cover">
+                </figure>
+
+                <button class="card-action-btn"  aria-label="add to favourite">
+                <ion-icon name="heart"  aria-label="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                    <h3 class="h3">
+                        <a href="#"   class="card-title">10755  Banana  Island, Ikeja,  LA 7037, Nigeria</a>
+                    </h3>
+
+                    <ul class="card-list">
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="cube-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">5000sqf</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="bed-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">3 Beds</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="man-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">4 Bath</span>
+                        </li>
+                    </ul>
+
+                    <div class="card-meta">
+
+                        <div>
+                            <span  class="meta--title">Price💖</span>
+
+                            <span class="meta-text">$30,000</span>
+                        </div>
+
+                        <div>
+                            <span  class="meta--title">Rating</span>
+
+                            <span class="meta-text">
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <span>5.0(30)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="property-card">
+                 
+                <figure class="card-banner img-holder" style="--width:  800; --height: 533;">
+<img src="img/gal-14.jpeg" width="800"  height="533"  alt="10755  Hillshire  Ave, Baton Rouge,  LA 7037, USA"  loading="lazy"  class="img-cover">
+                </figure>
+
+                <button class="card-action-btn"  aria-label="add to favourite">
+                <ion-icon name="heart"  aria-label="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                    <h3 class="h3">
+                        <a href="#"   class="card-title">10008    vila, Santavilo,  LA 71180, Russia</a>
+                    </h3>
+
+                    <ul class="card-list">
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="cube-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">8000sqf</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="bed-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">4 Beds</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="man-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">5 Bath</span>
+                        </li>
+                    </ul>
+
+                    <div class="card-meta">
+
+                        <div>
+                            <span  class="meta--title">Price</span>
+
+                            <span class="meta-text">$5000</span>
+                        </div>
+
+                        <div>
+                            <span  class="meta--title">Rating</span>
+
+                            <span class="meta-text">
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <span>5.0(30)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="property-card">
+                 
+                <figure class="card-banner img-holder" style="--width:  800; --height: 533;">
+<img src="img/gal-4.jpeg" width="800"  height="533"  alt="10755  Hillshire  Ave, Baton Rouge,  LA 7037, USA"  loading="lazy"  class="img-cover">
+                </figure>
+
+                <button class="card-action-btn"  aria-label="add to favourite">
+                <ion-icon name="heart"  aria-label="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                    <h3 class="h3">
+                        <a href="#"   class="card-title">10010    vila, lovanors,  LA 71180, China</a>
+                    </h3>
+
+                    <ul class="card-list">
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="cube-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">8000sqf</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="bed-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">4 Beds</span>
+                        </li>
+
+                        <li class="card-item">
+                            <div class="item-icon">
+                               <ion-icon name="man-outline"></ion-icon>
+                            </div>
+
+                            <span class="item-text">5 Bath</span>
+                        </li>
+                    </ul>
+
+                    <div class="card-meta">
+
+                        <div>
+                            <span  class="meta--title">Price</span>
+
+                            <span class="meta-text">$5000</span>
+                        </div>
+
+                        <div>
+                            <span  class="meta--title">Rating</span>
+
+                            <span class="meta-text">
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <span>5.0(30)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+      </ul>
+</div>
+ </section>
+
+
+  <section class="course">
+    <h2 class="h2 section-title">You May Also Like..</h2>
+  <div class="row">
+      <div class="campus-col">
+        <img src="img/gal-1.jpeg" height="">
+        <div class="layer">
+          <h3>Huston Villa<br><br><em>PO box 47443 Huston house U.S.A Las vegas</em></h3>
+        </div>
+      </div>
+      <div class="row">
+      <div class="campus-col">
+        <img src="IMG/gal-7.jpeg"  height="" >
+        <div class="layer">
+          <h3>Duplex-star<br><br><em>PO box 47443 Duplex-star house U.S.A Las vegas</em></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="section about" id="about"  aria-label="about">
+    <div class="container">
+    <div class="about-banner img-holder"  style="--width:  ;   --height:  ; ">
+        <img src="img/istockphoto-1332358775-170667a.jpg"   width="600" height="1000"   loading="lazy"  alt="about-banner" class="img-cover">
+    </div>
+
+
+<div class="about-content">
+    <h2 class="h2 section-title"  style="color: rgb(212, 33, 33); font-weight: 600;" id="invest">Invest With Us Now</h2>
+    <p class="section-text" style="color: brown;">Start earning cash daily💰💰💰 by investing with us at real homeasy, this is  the only way 
+        with which you can earn money💵💵💵 from us. We are trusted to see that your money is safe and secured at all cost. 
+       Get started by clicking the button below Now.</p>
+        <a href="#contact" class="btn btn-primary"  style=" background-color: rgb(212, 33, 33); font-weight: 600;">Get Started</a>
+</div>
+</div>
+</section>
+
+ <section class="section contact" id="contact"  aria-label="contact">
+    <div class="container">
+        <h2 class="h2 section-title">Have a Question? Get In touch!</h2>
+        <p class="section-text" style="color: green;">
+        Join us by sending a message to us this is all you need to do to get started with realhomeasy explore our world of properties
+        </p>
+        </div>
+        
+<section class="section about" id="about"  aria-label="about">
+    <div class="container">
+    <div class="about-banner img-holder"  style="--width:  ;   --height:  ; ">
+        <img src="img/contact-us-customer-support-hotline-600nw-2067737414.webp"   width="1000" height="1000"   loading="lazy"  alt="about-banner" class="img-cover">
+    </div>
+<div class="about-content">
+    <h2 class="h2 section-title"  style="margin-left: 60px; color: brown;">Send Us A Message</h2>
+    <p class="section-text"></p>
+    <form action="https://formsubmit.co/6ad9fd243b392edc4dff6a70f46fa1bb" method="POST">
+        <div class="form__group">
+            <input type="text"  name="  Name" id="name"   required  placeholder="Name">
+            <input type="email" name="Email" id="email"  required  placeholder="Email">
+        </div>
+        <div class="form__group">
+            <input type="text"   name="Ocupation" id="Ocupation"   required  placeholder="Ocupation">
+            <input type="password" name="password" placeholder="Phone No.">
+        </div>
+            <h4>Send Your Business Card</h4>
+            <input type="file"  name="Card" id="Card" required  placeholder="Card">
+        <textarea cols="10" rows="2" name="Message" id="message"   required  placeholder="Message"></textarea>
+        <input type="hidden" name="_autoresponse" value="Hello dear friend, thank you for choosing to  work with realhomeasy. We will send you our whatsapp link so you can coneect and start with us.">
+        <input type="hidden" name="_template" value="table">
+        <button type="submit" id="btn"  class="btn btn-primary"> <ion-icon name="call-outline"></ion-icon>Send Now ✔</button>
+    </form>
+</div>
+</div>
+</section>
+
+<section class="location" id="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63426.739019500004!2d3.
+    2224609153808528!3d6.500000461379764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9045e2bb11e3%3A0x915a9365
+    5d32fa25!2srealhomes.africa!5e0!3m2!1sen!2sng!4v1708670783478!5m2!1sen!2sng" 
+    width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+ <section class="section about" id="about"  aria-label="about">
+    <div class="container">
+    <div class="about-banner img-holder"  style="--width:  ;   --height:  ; ">
+        <img src="img/beautiful-house-pictures-gi9u23e95gi8iu2e.jpg"   width="600" height="1000"   loading="lazy"  alt="about-banner" class="img-cover">
+    </div>
+
+
+<div class="about-content">
+    <h2 class="h2 section-title"  style="color: rgb(111, 111, 45); font-weight: 600;" id="invest">Buy Our Properties</h2>
+    <p class="section-text" style="color:  rgb(111, 111, 45);">Buy our properties at an affordable price. there are no agent fee we assure you of fair and good bargain 
+        We are trusted to see that your Properties are safe and secured at all cost. Get started by clicking the button below</p>
+        <a href="#contact" class="btn btn-primary"  style=" background-color:  rgb(111, 111, 45); font-weight: 600;">Get Started</a>
+</div>
+
+    </div>
+</section>
+
+
+
+ <section id="experts">
+    <h1 style="font-size: 3rem;">List Of Company Share Holders</h1>
+   <p style="font-size: 2rem;  color: brown;">Our  Company Leaders who holds Share in the Real Homes.</p>
+   <div class="expert-box">
+
+     <div class="profile">
+       <img src="img/user-4.jpg" class="profiles">
+       <h6  style="font-size: 1.7rem;">Lesus Brian</h6>
+        <p>Manager</p>
+       <div class="pro-links">
+       </div>
+     </div>
+     <div class="profile">
+        <img src="img/realtor-1.jpeg" class="profiles">
+        <h6  style="font-size: 1.7rem;">Raymond Isreal</h6>
+        <p>Asst: Manager</p>
+        <div class="pro-links">
+        </div>
+      </div>
+      <div class="profile">
+        <img src="img/realtor-2.jpeg" class="profiles">
+        <h6   style="font-size: 1.7rem;">Mrs Lavethor</h6>
+        <p>Secetary</p>
+        <div class="pro-links">
+        </div>
+      </div>
+      <div class="profile">
+        <img src="img/realtor-3.jpeg" class="profiles">
+        <h6  style="font-size: 1.7rem;">Kabrim lodio</h6>
+        <p>Asst: Secetary in Spain</p>
+        <div class="pro-links">
+        </div>
+      </div>
+   </div>
+ </section>
+
+ <section class="newsletter" aria-label="newsletter">
+    <div class="container">
+
+        <div class="wrapper">
+
+            <h2 class="h2 section-title" style="color: rgb(206, 21, 21);">
+                Subscribe to Newsletter
+            </h2>
+
+            <p class="section-text" style="color: black;">
+                Subscribe to our newsletter to get latest updates and informations.
+            </p>
+        </div>
+
+        <div class="newsletter-form">
+            <form action="https://formsubmit.co/6ad9fd243b392edc4dff6a70f46fa1bb"  class="newsletter-form" method="POST"> 
+                <input type="email" name="email-address" placeholder="Enter your email : 👍"  class="email-field" required  aria-label="Enter your email">
+                <a href="#contact" class="btn btn-secondary"  style=" background-color:  black; font-weight: 600;">Subscribe</a>
+            </form>
+        </div>
+    </div>
+ </section>
+    </article>
+</main>
+
+<footer class="footer">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-brand">
+                <a href="" class="logo">
+                    <ion-icon name="business-outline"></ion-icon>Real-homeasy
+                </a>
+
+                <p class="footer-text">
+                 This is a great Webpage for buying, selling, and investing in properties all over the world without any agent or commision
+                </p>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                <p class="footer-list-title">Company
+                </p>
+            </li>
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span"><a href="house 1 - Copy.html">Register</a></span>
+                </a>
+            </li>
+
+            <li>
+                <a href="house 1.html"   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Sign up</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Login</span>
+                </a>
+            </li>
+
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Payment Method</span>
+                </a>
+            </li>
+
+
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Terms and Policies</span>
+                </a>
+            </li>
+
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                <p class="footer-list-title">Useful Links
+                </p>
+            </li>
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span"><a href="#terms">Terms And Conditions</a></span>
+                </a>
+            </li>
+
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Privacy And Policy</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Surveying</span>
+                </a>
+            </li>
+
+            <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Contact</span>
+                </a>
+            </li>
+
+             <li>
+                <a href=""   class="footer-link">
+                    <ion-icon class="chevron-forward"></ion-icon>
+                    <span class="span">Invest</span>
+                </a>
+            </li>
+
+            </ul>
+
+<ul class="footer-list">
+    <li>
+        <p class="footer-list-title">Contact Detailes</p>
+    </li>
+    <li class="footer-item">
+        <ion-icon name="location-outline"></ion-icon>
+        <address class="address">
+            D/54  Southwest  lakeway,<br>
+            Histiong  334<br>
+            Washington, USA 487
+            <a href="#location" class="address-link">View on Goolge map</a>
+        </address>
+    </li>
+
+    <li class="footer-item">
+        <ion-icon name="mail-outline"></ion-icon>
+        <a href="mailto:realhomeasy@gmail.com" class="footer-link">realhomeasy@gmail.com</a>
+    </li>
+
+    <li class="footer-item">
+        <ion-icon name="call-outline"></ion-icon>
+        <a href="tel:+1 234 334-329-232" class="footer-link">+1 234 334-329-232</a>
+    </li>
+    
+</ul>
+            
+        </div>
+    </div>
+
+    <div class="footer-botton">
+        <div class="container">
+
+            <p class="copyright">
+                &copy;  2024 Realhomes.  All Right  Reserved  by Real Homes Organisation</a>
+            </p>
+
+            <ul class="social-list">
+
+                <li>
+                    <a href="https://web.facebook.com/" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://web.instagram.com/" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://web.whatsapp.com/" class="social-link">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social-link">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+            
+        </div>
+    </div>
+    
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/fonts/swiper-bundle.min.js"></script>
+<script src="main.js" defer></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script  nomodule  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+</html>
